@@ -1,0 +1,142 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2024  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+# Date created = 17:13:30  March 08, 2026
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		VGA_TEST_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Intel recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSXFC6D6F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY VGA_TEST
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 23.1STD.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:13:30  MARCH 08, 2026"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.0.0 Standard Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_timing
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_global_assignment -name VERILOG_FILE VGA_TEST.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VERILOG_FILE NUM_TO_SEVSEG.v
+set_global_assignment -name VERILOG_FILE VGA_OUTPUT.v
+set_location_assignment PIN_AD30 -to color[7]
+set_location_assignment PIN_AC28 -to color[6]
+set_location_assignment PIN_V25 -to color[5]
+set_location_assignment PIN_W25 -to color[4]
+set_location_assignment PIN_AC30 -to color[3]
+set_location_assignment PIN_AB28 -to color[2]
+set_location_assignment PIN_Y27 -to color[1]
+set_location_assignment PIN_AB30 -to color[0]
+set_location_assignment PIN_AA30 -to confirm
+set_location_assignment PIN_AJ4 -to switchInput
+set_location_assignment PIN_AH22 -to sevSegCurrC[6]
+set_location_assignment PIN_AF23 -to sevSegCurrC[5]
+set_location_assignment PIN_AG23 -to sevSegCurrC[4]
+set_location_assignment PIN_AE23 -to sevSegCurrC[3]
+set_location_assignment PIN_AE22 -to sevSegCurrC[2]
+set_location_assignment PIN_AG22 -to sevSegCurrC[1]
+set_location_assignment PIN_AD21 -to sevSegCurrC[0]
+set_location_assignment PIN_AD20 -to sevSegCurrR[6]
+set_location_assignment PIN_AA19 -to sevSegCurrR[5]
+set_location_assignment PIN_AC20 -to sevSegCurrR[4]
+set_location_assignment PIN_AA20 -to sevSegCurrR[3]
+set_location_assignment PIN_AD19 -to sevSegCurrR[2]
+set_location_assignment PIN_W19 -to sevSegCurrR[1]
+set_location_assignment PIN_Y19 -to sevSegCurrR[0]
+set_location_assignment PIN_AB21 -to sevSegCurrL[6]
+set_location_assignment PIN_AF19 -to sevSegCurrL[5]
+set_location_assignment PIN_AE19 -to sevSegCurrL[4]
+set_location_assignment PIN_AG20 -to sevSegCurrL[3]
+set_location_assignment PIN_AF20 -to sevSegCurrL[2]
+set_location_assignment PIN_AG21 -to sevSegCurrL[1]
+set_location_assignment PIN_AF21 -to sevSegCurrL[0]
+set_location_assignment PIN_AK29 -to vgaR[0]
+set_location_assignment PIN_AK28 -to vgaR[1]
+set_location_assignment PIN_AK27 -to vgaR[2]
+set_location_assignment PIN_AJ27 -to vgaR[3]
+set_location_assignment PIN_AH27 -to vgaR[4]
+set_location_assignment PIN_AF26 -to vgaR[5]
+set_location_assignment PIN_AG26 -to vgaR[6]
+set_location_assignment PIN_AJ26 -to vgaR[7]
+set_location_assignment PIN_AK26 -to vgaG[0]
+set_location_assignment PIN_AJ25 -to vgaG[1]
+set_location_assignment PIN_AH25 -to vgaG[2]
+set_location_assignment PIN_AK24 -to vgaG[3]
+set_location_assignment PIN_AJ24 -to vgaG[4]
+set_location_assignment PIN_AH24 -to vgaG[5]
+set_location_assignment PIN_AK23 -to vgaG[6]
+set_location_assignment PIN_AH23 -to vgaG[7]
+set_location_assignment PIN_AJ21 -to vgaB[0]
+set_location_assignment PIN_AJ20 -to vgaB[1]
+set_location_assignment PIN_AH20 -to vgaB[2]
+set_location_assignment PIN_AJ19 -to vgaB[3]
+set_location_assignment PIN_AH19 -to vgaB[4]
+set_location_assignment PIN_AJ17 -to vgaB[5]
+set_location_assignment PIN_AJ16 -to vgaB[6]
+set_location_assignment PIN_AK16 -to vgaB[7]
+set_location_assignment PIN_AK18 -to vgaVSYNC
+set_location_assignment PIN_AK19 -to vgaHSYNC
+set_location_assignment PIN_AH18 -to sevSegNewR[6]
+set_location_assignment PIN_AG18 -to sevSegNewR[5]
+set_location_assignment PIN_AH17 -to sevSegNewR[4]
+set_location_assignment PIN_AG16 -to sevSegNewR[3]
+set_location_assignment PIN_AG17 -to sevSegNewR[2]
+set_location_assignment PIN_V18 -to sevSegNewR[1]
+set_location_assignment PIN_W17 -to sevSegNewR[0]
+set_location_assignment PIN_V17 -to sevSegNewC[6]
+set_location_assignment PIN_AE17 -to sevSegNewC[5]
+set_location_assignment PIN_AE18 -to sevSegNewC[4]
+set_location_assignment PIN_AD17 -to sevSegNewC[3]
+set_location_assignment PIN_AE16 -to sevSegNewC[2]
+set_location_assignment PIN_V16 -to sevSegNewC[1]
+set_location_assignment PIN_AF16 -to sevSegNewC[0]
+set_location_assignment PIN_W16 -to sevSegNewL[6]
+set_location_assignment PIN_AA21 -to sevSegNewL[0]
+set_location_assignment PIN_AB17 -to sevSegNewL[1]
+set_location_assignment PIN_AA18 -to sevSegNewL[2]
+set_location_assignment PIN_Y17 -to sevSegNewL[3]
+set_location_assignment PIN_Y18 -to sevSegNewL[4]
+set_location_assignment PIN_AF18 -to sevSegNewL[5]
+set_location_assignment PIN_AF14 -to clk50
+set_location_assignment PIN_AC29 -to rstSw
+set_location_assignment PIN_AK22 -to vga_blank_n
+set_location_assignment PIN_AK21 -to vga_clk
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

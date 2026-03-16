@@ -1,0 +1,23 @@
+module NUM_TO_SEVSEG(
+	input reg [4:0] number,
+	output reg [6:0] sevSeg
+);
+	
+	
+	always @(*) begin
+	
+		case(number)
+			0: sevSeg <= 7'b1000000;
+			1: sevSeg <= 7'b1111001;
+			2: sevSeg <= 7'b0100100;
+			3: sevSeg <= 7'b0110000;
+			4: sevSeg <= 7'b0011001;
+			5: sevSeg <= 7'b0010010;
+			6: sevSeg <= 7'b0000010;
+			7: sevSeg <= 7'b1111000;
+			8: sevSeg <= 7'b0000000;
+			9: sevSeg <= 7'b0011000;
+			default: sevSeg <= 7'b0000110;
+		endcase
+	end
+endmodule

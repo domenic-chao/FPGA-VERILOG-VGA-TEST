@@ -1,0 +1,18 @@
+module VGA_TEST (
+	input [7:0] color,
+	input confirm,
+	input switchInput,
+	
+);
+	reg [7:0] colorR;
+	reg [7:0] colorG;
+	reg [7:0] colorB;
+	
+	initial begin
+		colorR = 0;
+		colorG = 0;
+		colorB = 0;
+	end
+
+
+endmodule

@@ -1,0 +1,337 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sevSegCurrL[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegCurrL[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegCurrL[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegCurrL[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegCurrL[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegCurrL[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegCurrL[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegCurrC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegCurrC[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegCurrC[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegCurrC[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegCurrC[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegCurrC[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegCurrC[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegCurrR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegCurrR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegCurrR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegCurrR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegCurrR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegCurrR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegCurrR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegNewL[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegNewL[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegNewL[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegNewL[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegNewL[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegNewL[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegNewL[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegNewC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegNewC[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegNewC[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegNewC[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegNewC[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegNewC[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegNewC[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegNewR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegNewR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegNewR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegNewR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegNewR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegNewR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sevSegNewR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "vgaR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "vgaR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "vgaR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "vgaR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "vgaR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "vgaR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "vgaR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "vgaR[7]",
+					"strict" : false
+				},
+				{
+					"name" : "vgaG[0]",
+					"strict" : false
+				},
+				{
+					"name" : "vgaG[1]",
+					"strict" : false
+				},
+				{
+					"name" : "vgaG[2]",
+					"strict" : false
+				},
+				{
+					"name" : "vgaG[3]",
+					"strict" : false
+				},
+				{
+					"name" : "vgaG[4]",
+					"strict" : false
+				},
+				{
+					"name" : "vgaG[5]",
+					"strict" : false
+				},
+				{
+					"name" : "vgaG[6]",
+					"strict" : false
+				},
+				{
+					"name" : "vgaG[7]",
+					"strict" : false
+				},
+				{
+					"name" : "vgaB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "vgaB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "vgaB[2]",
+					"strict" : false
+				},
+				{
+					"name" : "vgaB[3]",
+					"strict" : false
+				},
+				{
+					"name" : "vgaB[4]",
+					"strict" : false
+				},
+				{
+					"name" : "vgaB[5]",
+					"strict" : false
+				},
+				{
+					"name" : "vgaB[6]",
+					"strict" : false
+				},
+				{
+					"name" : "vgaB[7]",
+					"strict" : false
+				},
+				{
+					"name" : "vgaHSYNC",
+					"strict" : false
+				},
+				{
+					"name" : "vgaVSYNC",
+					"strict" : false
+				},
+				{
+					"name" : "vgaBlankN",
+					"strict" : false
+				},
+				{
+					"name" : "vga_clk",
+					"strict" : false
+				},
+				{
+					"name" : "color[0]",
+					"strict" : false
+				},
+				{
+					"name" : "color[1]",
+					"strict" : false
+				},
+				{
+					"name" : "color[2]",
+					"strict" : false
+				},
+				{
+					"name" : "color[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rstSw",
+					"strict" : false
+				},
+				{
+					"name" : "clk50",
+					"strict" : false
+				},
+				{
+					"name" : "confirm",
+					"strict" : false
+				},
+				{
+					"name" : "switchInput",
+					"strict" : false
+				},
+				{
+					"name" : "color[4]",
+					"strict" : false
+				},
+				{
+					"name" : "color[5]",
+					"strict" : false
+				},
+				{
+					"name" : "color[6]",
+					"strict" : false
+				},
+				{
+					"name" : "color[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
