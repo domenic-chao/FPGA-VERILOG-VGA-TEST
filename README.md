@@ -4,6 +4,7 @@ Sync pulse for 640 by 480 is `LOW` with active, front porch and back porch being
 ## Order of Opperation for VGA:
 
 |Mode|HSYNC PIXELS|VSYNC PIXELS|Signal|
+|---|----|---|---|
 |Active Video|640|480|HIGH|
 |Front Porch|16|10|HIGH|
 |Sync Pulse|96|2|LOW|
