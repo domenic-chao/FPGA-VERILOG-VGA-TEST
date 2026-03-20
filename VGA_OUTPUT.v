@@ -15,9 +15,7 @@ module VGA_OUTPUT (
 	output reg [7:0] vgaG,	// VGA GREEN COLOR OUTPUT (0-255)
 	output reg [7:0] vgaB,	// VGA BLUE COLOR OUTPUT (0-255)
 	output vgaHSYNC,			// VGA HORIZONTAL SYNC OUTPUT 
-	output vgaVSYNC,			// VGA VERTICAL SYNC OUTPUT
-	output vgaBlankN			//	VGA WHOLE SCREEN BLANKING
-	
+	output vgaVSYNC,			// VGA VERTICAL SYNC OUTPUT	
 );
 
 	// VARIABLES FOR HEIGHT AND WIDTH
