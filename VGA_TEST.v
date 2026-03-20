@@ -18,7 +18,6 @@ module VGA_TEST (
 	output [7:0] vgaB,					// VGA_B		[7: PIN_AK16; 6: PIN_AJ16; 5: PIN_AJ17; 4: PIN_AH19; 3: PIN_AJ19; 2: PIN_AH20; 1: PIN_AJ20; 0: PIN_AJ21;]
 	output vgaHSYNC,						//	VGA_HSYC	[PIN_AK19]
 	output vgaVSYNC,						// VGA_VSYC	[PIN_AK18]
-	output vgaBlankN,						// VGA_BLANKN 	[PIN_AK22]
 	output vga_clk							// VGA_CLK	[PIN_AK21]
 );
 	reg [2:0] selection = 0;
@@ -73,8 +72,7 @@ module VGA_TEST (
 		.vgaG(vgaG),
 		.vgaB(vgaB),
 		.vgaHSYNC(vgaHSYNC),
-		.vgaVSYNC(vgaVSYNC),
-		.vgaBlankN(vgaBlankN)
+		.vgaVSYNC(vgaVSYNC)
 	);
 	
 	// CONVERTING THE THREE DIGIT NUMBER TO SEVEN SEGMENT
